@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jammu & Kashmir Legal Services Authority</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Official website of Jammu & Kashmir Legal Services Authority - Providing legal aid and services to citizens">
+    <meta name="keywords" content="legal services, Jammu Kashmir, legal aid, justice, law">
+    <meta name="author" content="Jammu & Kashmir Legal Services Authority">
+</head>
+<body>
+    <!-- Accessibility Tools -->
+    <div id="accessibility-tools" class="accessibility-tools">
+        <button id="font-increase" class="btn btn-sm btn-outline-primary" title="Increase Font Size">
+            <i class="fas fa-plus"></i> A+
+        </button>
+        <button id="font-decrease" class="btn btn-sm btn-outline-primary" title="Decrease Font Size">
+            <i class="fas fa-minus"></i> A-
+        </button>
+        <button id="dark-mode-toggle" class="btn btn-sm btn-outline-dark" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button id="high-contrast-toggle" class="btn btn-sm btn-outline-warning" title="High Contrast Mode">
+            <i class="fas fa-adjust"></i>
+        </button>
+    </div>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <select id="language-select-top" class="form-select form-select-sm">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="ur">اردو</option>
+            <option value="ks">کٲشُر</option>
+        </select>
+    </div>
+
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+        
+        
+        <!-- Brand -->
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=60&h=60&fit=crop&crop=center" alt="JK Legal Services" class="logo">
+        <span>
+        <strong>J&K Legal Services Authority</strong>
+        <small>Justice for All</small>
+        </span>
+        </a>
+        
+        
+        <!-- Mobile toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#home" data-translate="nav.home">Home</a>
+        </li>
+        
+        <!-- Services Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="nav.services">Services</a>
+            <ul class="dropdown-menu mega-menu" aria-labelledby="servicesDropdown">
+                <li class="mega-menu-content">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6 class="dropdown-header" data-translate="nav.services_legal">Legal Services</h6>
+                            <a class="dropdown-item" href="#" data-translate="nav.free_legal_aid">Free Legal Aid</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.court_representation">Court Representation</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.legal_consultation">Legal Consultation</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.document_preparation">Document Preparation</a>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="dropdown-header" data-translate="nav.services_specialized">Specialized Services</h6>
+                            <a class="dropdown-item" href="#" data-translate="nav.family_law">Family Law</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.criminal_defense">Criminal Defense</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.property_disputes">Property Disputes</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.labor_rights">Labor Rights</a>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="dropdown-header" data-translate="nav.services_community">Community Services</h6>
+                            <a class="dropdown-item" href="#" data-translate="nav.legal_awareness">Legal Awareness</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.mobile_court">Mobile Court</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.mediation">Mediation</a>
+                            <a class="dropdown-item" href="#" data-translate="nav.women_rights">Women's Rights</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        
+        <!-- Institutions Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="institutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="nav.institutions">Institutions</a>
+            <ul class="dropdown-menu" aria-labelledby="institutionsDropdown">
+                <li><a class="dropdown-item" href="#" data-translate="nav.high_court">High Court & Subordinate Courts</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.advocate_general">Advocate General's Office</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.legal_aid_committees">Legal Aid Committees</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.tribunals">Tribunals</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.directorates">Directorates</a></li>
+            </ul>
+        </li>
+        
+        <!-- News & Updates -->
+        <li class="nav-item">
+            <a class="nav-link" href="#news" data-translate="nav.news">News & Updates</a>
+        </li>
+        
+        <!-- Resources Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="nav.resources">Resources</a>
+            <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                <li><a class="dropdown-item" href="#" data-translate="nav.acts_rules">Acts & Rules</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.forms">Forms & Applications</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.guidelines">Guidelines</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.case_law">Case Law</a></li>
+                <li><a class="dropdown-item" href="#" data-translate="nav.legal_dictionary">Legal Dictionary</a></li>
+            </ul>
+        </li>
+        
+        <!-- About Us -->
+        <li class="nav-item">
+            <a class="nav-link" href="#about" data-translate="nav.about">About Us</a>
+        </li>
+        
+        <!-- Contact -->
+        <li class="nav-item">
+            <a class="nav-link" href="#contact" data-translate="nav.contact">Contact</a>
+        </li>
+        
+        </ul>
+        
+        
+     <!-- Combined Search -->
+<div class="search-container d-flex align-items-center">
+    <!-- Search Input (visible on desktop/tablet) -->
+    <div class="input-group d-none d-md-flex">
+      <input type="text" class="form-control" placeholder="Search..." id="search-input">
+      <button class="btn btn-primary" type="button" id="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+  
+    <!-- Mobile Search Button (visible only on small screens) -->
+    <button class="btn btn-primary d-md-none ms-2" type="button" id="search-btn-mobile">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+  
+        
+        
+        
+        </div>
+        </div>
+        </nav>
+        </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero-slide hero-slide-1">
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-6">
+                                    <h1 class="hero-title" data-translate="hero.title1">Justice for Every Citizen</h1>
+                                    <p class="hero-subtitle" data-translate="hero.subtitle1">
+                                        Providing free legal aid and services to ensure access to justice for all residents of Jammu & Kashmir
+                                    </p>
+                                    <div class="hero-buttons">
+                                        <a href="#services" class="btn btn-primary btn-lg me-3" data-translate="hero.learn_more">Learn More</a>
+                                        <a href="#contact" class="btn btn-outline-light btn-lg" data-translate="hero.get_help">Get Legal Help</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image">
+                                        <!-- Background image is now applied via CSS -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-2">
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-6">
+                                    <h1 class="hero-title" data-translate="hero.title2">Free Legal Aid</h1>
+                                    <p class="hero-subtitle" data-translate="hero.subtitle2">Qualified lawyers providing pro bono services to those who cannot afford legal representation</p>
+                                    <div class="hero-buttons">
+                                        <a href="#services" class="btn btn-primary btn-lg me-3" data-translate="hero.learn_more">Learn More</a>
+                                        <a href="#contact" class="btn btn-outline-light btn-lg" data-translate="hero.get_help">Get Legal Help</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image">
+                                        <!-- Background image is now applied via CSS -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-3">
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-6">
+                                    <h1 class="hero-title" data-translate="hero.title3">Community Outreach</h1>
+                                    <p class="hero-subtitle" data-translate="hero.subtitle3">Legal awareness programs and community services across Jammu & Kashmir</p>
+                                    <div class="hero-buttons">
+                                        <a href="#services" class="btn btn-primary btn-lg me-3" data-translate="hero.learn_more">Learn More</a>
+                                        <a href="#contact" class="btn btn-outline-light btn-lg" data-translate="hero.get_help">Get Legal Help</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image">
+                                        <!-- Background image is now applied via CSS -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Rolling Court Orders Section -->
+    <section class="court-orders-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="section-title" data-translate="court_orders.title">Latest Court Orders</h2>
+                    <p class="section-subtitle" data-translate="court_orders.subtitle">Stay updated with recent legal developments</p>
+                </div>
+            </div>
+            
+            <div class="court-orders-container">
+                <div class="court-orders-track" id="courtOrdersTrack">
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-001</span>
+                            <span class="court-order-date">Dec 20, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">High Court Directive on Legal Aid</h4>
+                        <p class="court-order-summary">New guidelines for expedited legal aid processing in civil cases...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">J&K High Court</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-002</span>
+                            <span class="court-order-date">Dec 18, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">Mobile Court Services Expansion</h4>
+                        <p class="court-order-summary">Approval for extended mobile court operations in remote areas...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">District Court</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-003</span>
+                            <span class="court-order-date">Dec 15, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">Women's Rights Protection</h4>
+                        <p class="court-order-summary">Enhanced legal framework for women's rights and safety measures...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">Family Court</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-004</span>
+                            <span class="court-order-date">Dec 12, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">Digital Court Proceedings</h4>
+                        <p class="court-order-summary">Implementation of virtual court hearings for better accessibility...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">Appellate Court</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-005</span>
+                            <span class="court-order-date">Dec 10, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">Legal Aid Eligibility Criteria</h4>
+                        <p class="court-order-summary">Updated income thresholds and qualification requirements...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">Legal Services Authority</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Duplicate cards for seamless rolling effect -->
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-001</span>
+                            <span class="court-order-date">Dec 20, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">High Court Directive on Legal Aid</h4>
+                        <p class="court-order-summary">New guidelines for expedited legal aid processing in civil cases...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">J&K High Court</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="court-order-card">
+                        <div class="court-order-header">
+                            <span class="court-order-number">Order #2024-002</span>
+                            <span class="court-order-date">Dec 18, 2023</span>
+                        </div>
+                        <h4 class="court-order-title">Mobile Court Services Expansion</h4>
+                        <p class="court-order-summary">Approval for extended mobile court operations in remote areas...</p>
+                        <div class="court-order-footer">
+                            <span class="court-order-court">District Court</span>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="quick-stats py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="5000">0</div>
+                        <div class="stat-label" data-translate="stats.cases_resolved">Cases Resolved</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-label" data-translate="stats.lawyers">Qualified Lawyers</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="22">0</div>
+                        <div class="stat-label" data-translate="stats.districts">Districts Covered</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="95">0</div>
+                        <div class="stat-label" data-translate="stats.satisfaction">% Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="services.title">Our Services</h2>
+                    <p class="section-subtitle" data-translate="services.subtitle">Comprehensive legal services for all citizens</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=300&h=200&fit=crop&crop=center" alt="Free Legal Aid">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4 data-translate="services.free_legal_aid">Free Legal Aid</h4>
+                            <p data-translate="services.free_legal_aid_desc">Professional legal representation for those who cannot afford it</p>
+                            <a href="#" class="btn btn-outline-primary" data-translate="services.learn_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop&crop=center" alt="Legal Awareness">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 data-translate="services.legal_awareness">Legal Awareness</h4>
+                            <p data-translate="services.legal_awareness_desc">Educational programs to help citizens understand their rights</p>
+                            <a href="#" class="btn btn-outline-primary" data-translate="services.learn_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=300&h=200&fit=crop&crop=center" alt="Mediation Services">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4 data-translate="services.mediation">Mediation Services</h4>
+                            <p data-translate="services.mediation_desc">Alternative dispute resolution for faster and cost-effective solutions</p>
+                            <a href="#" class="btn btn-outline-primary" data-translate="services.learn_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                           
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=300&h=200&fit=crop&crop=center" alt="Documentation Help">
+                        
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-file-contract"></i>
+                            </div>
+                            <h4 data-translate="services.documentation">Documentation Help</h4>
+                            <p data-translate="services.documentation_desc">Assistance with legal documents and paperwork</p>
+                            <a href="#" class="btn btn-outline-primary" data-translate="services.learn_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=300&h=200&fit=crop&crop=center" alt="Mobile Court">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4 data-translate="services.mobile_court">Mobile Court</h4>
+                            <p data-translate="services.mobile_court_desc">Court services brought to remote areas</p>
+                            <a href="#" class="btn btn-outline-primary" data-translate="services.learn_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=300&h=200&fit=crop&crop=center" alt="Documentation Help">
+                        </div>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 data-translate="services.women_rights">Women's Rights</h4>
+                            <p data-translate="services.women_rights_desc">Specialized legal support for women's issues</p>
+                            <a href="#" class="btn btn-outline-primary" data-translate="services.learn_more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Updates Section -->
+    <section id="news" class="news-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="news.title">Latest News & Updates</h2>
+                    <p class="section-subtitle" data-translate="news.subtitle">Stay informed about legal developments</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="news-main">
+                        <!-- Featured News Card -->
+                        <div class="news-card featured fade-in-up" data-delay="0">
+                            <div class="news-image">
+                                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop&crop=center" alt="Legal Update">
+                                <div class="news-badge">Featured</div>
+                            </div>
+                            <div class="news-content">
+                                <div class="news-meta">
+                                    <span class="news-date"><i class="fas fa-calendar"></i> Dec 15, 2023</span>
+                                    <span class="news-category">Legal Update</span>
+                                </div>
+                                <h3 data-translate="news.featured_title">New Legal Aid Guidelines Released</h3>
+                                <p data-translate="news.featured_desc">The Jammu & Kashmir Legal Services Authority has released updated guidelines for legal aid services...</p>
+                                <a href="#" class="btn btn-primary" data-translate="news.read_more">Read More</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Additional News Cards -->
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="news-card fade-in-up" data-delay="200">
+                                    <div class="news-image">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=200&fit=crop&crop=center" alt="Digital Court">
+                                        <div class="news-badge">New</div>
+                                    </div>
+                                    <div class="news-content">
+                                        <div class="news-meta">
+                                            <span class="news-date"><i class="fas fa-calendar"></i> Dec 18, 2023</span>
+                                            <span class="news-category">Technology</span>
+                                        </div>
+                                        <h4 data-translate="news.digital_court_title">Digital Court Proceedings Launched</h4>
+                                        <p data-translate="news.digital_court_desc">Virtual court hearings now available for better accessibility and convenience...</p>
+                                        <a href="#" class="btn btn-outline-primary btn-sm" data-translate="news.read_more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="news-card fade-in-up" data-delay="400">
+                                    <div class="news-image">
+                                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=200&fit=crop&crop=center" alt="Community Outreach">
+                                        <div class="news-badge">Community</div>
+                                    </div>
+                                    <div class="news-content">
+                                        <div class="news-meta">
+                                            <span class="news-date"><i class="fas fa-calendar"></i> Dec 20, 2023</span>
+                                            <span class="news-category">Outreach</span>
+                                        </div>
+                                        <h4 data-translate="news.community_title">Rural Legal Awareness Drive</h4>
+                                        <p data-translate="news.community_desc">Comprehensive legal education program launched in remote villages...</p>
+                                        <a href="#" class="btn btn-outline-primary btn-sm" data-translate="news.read_more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+
+
+
+                
+                <div class="col-lg-4">
+                    <div class="news-sidebar">
+                        <h4 data-translate="news.recent_news">Recent News</h4>
+                        
+                        <div class="news-item">
+                            <div class="news-item-content">
+                                <h5 data-translate="news.item1_title">Mobile Court Services Expanded</h5>
+                                <p class="news-item-date">Dec 12, 2023</p>
+                            </div>
+                        </div>
+                        
+                        <div class="news-item">
+                            <div class="news-item-content">
+                                <h5 data-translate="news.item2_title">Legal Awareness Camp in Srinagar</h5>
+                                <p class="news-item-date">Dec 10, 2023</p>
+                            </div>
+                        </div>
+                        
+                        <div class="news-item">
+                            <div class="news-item-content">
+                                <h5 data-translate="news.item3_title">New Legal Aid Centers Opened</h5>
+                                <p class="news-item-date">Dec 8, 2023</p>
+                            </div>
+                        </div>
+                        
+                        <div class="news-item">
+                            <div class="news-item-content">
+                                <h5 data-translate="news.item4_title">Women's Rights Workshop</h5>
+                                <p class="news-item-date">Dec 5, 2023</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-outline-primary w-100 mt-3" data-translate="news.view_all">View All News</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Testimonials Section -->
+    <section class="testimonials-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white" data-translate="testimonials.title">What People Say</h2>
+                    <p class="section-subtitle text-white-50" data-translate="testimonials.subtitle">Hear from those we've helped</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card slide-in-left" data-delay="0">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text" data-translate="testimonials.text1">"The legal aid service provided by J&K Legal Services Authority was exceptional. They helped me understand my rights and provided free representation in court."</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face" alt="Client">
+                                </div>
+                                <div class="author-info">
+                                    <h5 data-translate="testimonials.name1">Rajesh Kumar</h5>
+                                    <span data-translate="testimonials.location1">Srinagar, J&K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card fade-in-up" data-delay="200">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text" data-translate="testimonials.text2">"I was struggling with a property dispute for months. The mobile court service came to our village and resolved everything quickly and fairly."</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face" alt="Client">
+                                </div>
+                                <div class="author-info">
+                                    <h5 data-translate="testimonials.name2">Priya Sharma</h5>
+                                    <span data-translate="testimonials.location2">Jammu, J&K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card slide-in-right" data-delay="400">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text" data-translate="testimonials.text3">"The women's rights workshop opened my eyes to many legal protections I didn't know existed. Thank you for empowering our community."</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face" alt="Client">
+                                </div>
+                                <div class="author-info">
+                                    <h5 data-translate="testimonials.name3">Fatima Begum</h5>
+                                    <span data-translate="testimonials.location3">Anantnag, J&K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Statistics Section -->
+    <section class="animated-stats-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="stats.title">Our Impact in Numbers</h2>
+                    <p class="section-subtitle" data-translate="stats.subtitle">Making a difference in the community</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card bounce-in" data-delay="0">
+                        <div class="stat-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="stat-number" data-count="5000">0</div>
+                        <div class="stat-label" data-translate="stats.cases_resolved">Cases Resolved</div>
+                        <div class="stat-description" data-translate="stats.cases_desc">Successfully resolved legal disputes</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card bounce-in" data-delay="200">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-label" data-translate="stats.lawyers">Qualified Lawyers</div>
+                        <div class="stat-description" data-translate="stats.lawyers_desc">Dedicated legal professionals</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card bounce-in" data-delay="400">
+                        <div class="stat-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="stat-number" data-count="22">0</div>
+                        <div class="stat-label" data-translate="stats.districts">Districts Covered</div>
+                        <div class="stat-description" data-translate="stats.districts_desc">Across Jammu & Kashmir</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card bounce-in" data-delay="600">
+                        <div class="stat-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="stat-number" data-count="95">0</div>
+                        <div class="stat-label" data-translate="stats.satisfaction">% Satisfaction</div>
+                        <div class="stat-description" data-translate="stats.satisfaction_desc">Client satisfaction rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Timeline Section -->
+    <section class="timeline-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="timeline.title">Legal Process Timeline</h2>
+                    <p class="section-subtitle" data-translate="timeline.subtitle">How we help you through the legal process</p>
+                </div>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-item zoom-in" data-delay="0">
+                    <div class="timeline-marker">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4 data-translate="timeline.step1_title">Initial Consultation</h4>
+                        <p data-translate="timeline.step1_desc">Free consultation to understand your legal needs and eligibility</p>
+                        <span class="timeline-date" data-translate="timeline.step1_time">Day 1</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item zoom-in" data-delay="200">
+                    <div class="timeline-marker">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4 data-translate="timeline.step2_title">Document Review</h4>
+                        <p data-translate="timeline.step2_desc">Thorough review of your documents and case preparation</p>
+                        <span class="timeline-date" data-translate="timeline.step2_time">Day 2-3</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item zoom-in" data-delay="400">
+                    <div class="timeline-marker">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4 data-translate="timeline.step3_title">Legal Representation</h4>
+                        <p data-translate="timeline.step3_desc">Professional legal representation in court proceedings</p>
+                        <span class="timeline-date" data-translate="timeline.step3_time">Day 4-30</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item zoom-in" data-delay="600">
+                    <div class="timeline-marker">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4 data-translate="timeline.step4_title">Case Resolution</h4>
+                        <p data-translate="timeline.step4_desc">Successful resolution and follow-up support</p>
+                        <span class="timeline-date" data-translate="timeline.step4_time">Ongoing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Gallery Section -->
+    <section class="gallery-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="gallery.title">Our Work in Action</h2>
+                    <p class="section-subtitle" data-translate="gallery.subtitle">See our legal services making a difference</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="gallery-item flip-in" data-delay="0">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=300&fit=crop&crop=center" alt="Legal Aid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4 data-translate="gallery.item1_title">Legal Aid Clinic</h4>
+                                    <p data-translate="gallery.item1_desc">Providing free legal consultation</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="gallery-item flip-in" data-delay="200">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center" alt="Mobile Court">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4 data-translate="gallery.item2_title">Mobile Court Session</h4>
+                                    <p data-translate="gallery.item2_desc">Bringing justice to remote areas</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="gallery-item flip-in" data-delay="400">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=300&fit=crop&crop=center" alt="Community Workshop">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4 data-translate="gallery.item3_title">Legal Awareness Workshop</h4>
+                                    <p data-translate="gallery.item3_desc">Educating communities about their rights</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="gallery-item flip-in" data-delay="600">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&fit=crop&crop=center" alt="Court Proceedings">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4 data-translate="gallery.item4_title">Court Proceedings</h4>
+                                    <p data-translate="gallery.item4_desc">Professional legal representation</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="gallery-item flip-in" data-delay="800">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=300&fit=crop&crop=center" alt="Women's Rights">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4 data-translate="gallery.item5_title">Women's Rights Program</h4>
+                                    <p data-translate="gallery.item5_desc">Empowering women through legal aid</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="gallery-item flip-in" data-delay="1000">
+                        <div class="gallery-image">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=300&fit=crop&crop=center" alt="Mediation">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4 data-translate="gallery.item6_title">Mediation Services</h4>
+                                    <p data-translate="gallery.item6_desc">Alternative dispute resolution</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="faq.title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle" data-translate="faq.subtitle">Get answers to common legal questions</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item rotate-in" data-delay="0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <span data-translate="faq.q1">Who is eligible for free legal aid?</span>
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-translate="faq.a1">Free legal aid is available to women, children, scheduled castes, scheduled tribes, victims of human trafficking, disabled persons, and those with an annual income below Rs. 3 lakhs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item rotate-in" data-delay="200">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <span data-translate="faq.q2">How can I apply for legal aid?</span>
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-translate="faq.a2">You can apply online through our website, visit any legal aid clinic, or call our helpline. Our staff will guide you through the application process and required documentation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item rotate-in" data-delay="400">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <span data-translate="faq.q3">What types of cases do you handle?</span>
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-translate="faq.a3">We handle civil, criminal, family, property, labor, and constitutional matters. We also provide legal awareness programs and mediation services for dispute resolution.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item rotate-in" data-delay="600">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <span data-translate="faq.q4">Is the legal aid service really free?</span>
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-translate="faq.a4">Yes, all our legal aid services are completely free for eligible individuals. This includes consultation, document preparation, court representation, and follow-up support.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item rotate-in" data-delay="800">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    <span data-translate="faq.q5">How long does the legal process take?</span>
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-translate="faq.a5">The duration varies depending on the case complexity. Simple matters may be resolved in weeks, while complex cases might take months. We provide regular updates throughout the process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Elements Section -->
+    <section class="floating-elements-section py-5 bg-primary text-white position-relative overflow-hidden">
+        <div class="floating-shapes">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="floating-shape shape-5"></div>
+        </div>
+        
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white" data-translate="floating.title">Justice for All</h2>
+                    <p class="section-subtitle text-white-50" data-translate="floating.subtitle">Making legal services accessible to every citizen</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="floating-card pulse-animation" data-delay="0">
+                        <div class="card-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h4 data-translate="floating.card1_title">Fair Justice</h4>
+                        <p data-translate="floating.card1_desc">Equal access to legal representation</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="floating-card pulse-animation" data-delay="200">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 data-translate="floating.card2_title">Compassionate Service</h4>
+                        <p data-translate="floating.card2_desc">Understanding and supportive approach</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="floating-card pulse-animation" data-delay="400">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 data-translate="floating.card3_title">Protection</h4>
+                        <p data-translate="floating.card3_desc">Safeguarding your legal rights</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="floating-card pulse-animation" data-delay="600">
+                        <div class="card-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 data-translate="floating.card4_title">Trust</h4>
+                        <p data-translate="floating.card4_desc">Reliable and professional service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Skills Section -->
+    <section class="skills-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="skills.title">Our Legal Expertise</h2>
+                    <p class="section-subtitle" data-translate="skills.subtitle">Professional skills and experience in various legal domains</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="skills-content">
+                        <h3 data-translate="skills.content_title">Why Choose Our Legal Services?</h3>
+                        <p data-translate="skills.content_desc">Our team of experienced lawyers brings decades of combined experience in various legal fields, ensuring the best possible representation for our clients.</p>
+                        
+                        <div class="skill-item fade-in-up" data-delay="0">
+                            <div class="skill-header">
+                                <span class="skill-name" data-translate="skills.skill1_name">Civil Law</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item fade-in-up" data-delay="200">
+                            <div class="skill-header">
+                                <span class="skill-name" data-translate="skills.skill2_name">Criminal Defense</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item fade-in-up" data-delay="400">
+                            <div class="skill-header">
+                                <span class="skill-name" data-translate="skills.skill3_name">Family Law</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item fade-in-up" data-delay="600">
+                            <div class="skill-header">
+                                <span class="skill-name" data-translate="skills.skill4_name">Property Disputes</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="achievements-grid">
+                        <div class="achievement-card bounce-in" data-delay="0">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4 data-translate="skills.achievement1_title">Award Winning</h4>
+                            <p data-translate="skills.achievement1_desc">Recognized for excellence in legal services</p>
+                        </div>
+                        
+                        <div class="achievement-card bounce-in" data-delay="200">
+                            <div class="achievement-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4 data-translate="skills.achievement2_title">Expert Team</h4>
+                            <p data-translate="skills.achievement2_desc">Qualified and experienced professionals</p>
+                        </div>
+                        
+                        <div class="achievement-card bounce-in" data-delay="400">
+                            <div class="achievement-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4 data-translate="skills.achievement3_title">24/7 Support</h4>
+                            <p data-translate="skills.achievement3_desc">Round-the-clock legal assistance</p>
+                        </div>
+                        
+                        <div class="achievement-card bounce-in" data-delay="600">
+                            <div class="achievement-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 data-translate="skills.achievement4_title">Confidential</h4>
+                            <p data-translate="skills.achievement4_desc">Complete privacy and confidentiality</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title" data-translate="about.title">About Jammu & Kashmir Legal Services Authority</h2>
+                    <p class="about-text" data-translate="about.desc1">The Jammu & Kashmir Legal Services Authority is committed to providing free legal aid and services to ensure access to justice for all citizens, particularly the marginalized and underprivileged sections of society.</p>
+                    <p class="about-text" data-translate="about.desc2">We operate through a network of legal aid clinics, mobile courts, and community outreach programs across all districts of Jammu & Kashmir.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span data-translate="about.feature1">Free Legal Representation</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span data-translate="about.feature2">Qualified Legal Professionals</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span data-translate="about.feature3">Community Outreach Programs</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span data-translate="about.feature4">Mobile Court Services</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&h=400&fit=crop&crop=center" alt="About Us" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-translate="contact.title">Contact Us</h2>
+                    <p class="section-subtitle" data-translate="contact.subtitle">Get in touch for legal assistance</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label" data-translate="contact.first_name">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label" data-translate="contact.last_name">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label" data-translate="contact.email">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label" data-translate="contact.phone">Phone</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="subject" class="form-label" data-translate="contact.subject">Subject</label>
+                                <select class="form-select" id="subject" required>
+                                    <option value="" data-translate="contact.select_subject">Select Subject</option>
+                                    <option value="legal_aid" data-translate="contact.legal_aid">Legal Aid Request</option>
+                                    <option value="complaint" data-translate="contact.complaint">Complaint</option>
+                                    <option value="inquiry" data-translate="contact.inquiry">General Inquiry</option>
+                                    <option value="feedback" data-translate="contact.feedback">Feedback</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="message" class="form-label" data-translate="contact.message">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg" data-translate="contact.submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact.address_title">Address</h5>
+                                <p data-translate="contact.address">Jammu & Kashmir Legal Services Authority<br>
+                                Secretariat Complex, Jammu<br>
+                                Jammu & Kashmir, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact.phone_title">Phone</h5>
+                                <p>+91-191-1234567<br>+91-191-1234568</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact.email_title">Email</h5>
+                                <p>info@jklegalservices.gov.in<br>help@jklegalservices.gov.in</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact.hours_title">Working Hours</h5>
+                                <p data-translate="contact.hours">Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=60&h=60&fit=crop&crop=center" alt="JK Legal Services" class="logo mb-3">
+                        <h5 data-translate="footer.brand_title">J&K Legal Services Authority</h5>
+                        <p data-translate="footer.brand_desc">Committed to providing justice for all citizens through free legal aid and services.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 data-translate="footer.quick_links">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-translate="nav.home">Home</a></li>
+                        <li><a href="#services" data-translate="nav.services">Services</a></li>
+                        <li><a href="#news" data-translate="nav.news">News</a></li>
+                        <li><a href="#about" data-translate="nav.about">About</a></li>
+                        <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 data-translate="footer.services">Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="#" data-translate="services.free_legal_aid">Free Legal Aid</a></li>
+                        <li><a href="#" data-translate="services.legal_awareness">Legal Awareness</a></li>
+                        <li><a href="#" data-translate="services.mediation">Mediation</a></li>
+                        <li><a href="#" data-translate="services.mobile_court">Mobile Court</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <h6 data-translate="footer.follow_us">Follow Us</h6>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    
+                    <div class="newsletter mt-4">
+                        <h6 data-translate="footer.newsletter">Newsletter</h6>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" data-translate="footer.email_placeholder">
+                            <button class="btn btn-primary" type="button" data-translate="footer.subscribe">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0" data-translate="footer.copyright">&copy; 2023 Jammu & Kashmir Legal Services Authority. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-links">
+                        <a href="#" data-translate="footer.privacy">Privacy Policy</a>
+                        <a href="#" data-translate="footer.terms">Terms of Service</a>
+                        <a href="#" data-translate="footer.accessibility">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary back-to-top" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
